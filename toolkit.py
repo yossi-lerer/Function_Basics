@@ -16,4 +16,4 @@ square(12)
 def greet_with_title(name, title="Agent"):
     print(f"Hello, {name} {title}")
 greet_with_title(name = "yossi")
-greet_with_title("shneor", "solder")
+greet_with_title("Gad", "King")
