@@ -14,6 +14,12 @@ square(5)
 square(12)
 # part 4
 def greet_with_title(name, title="Agent"):
-    print(f"Hello, {name} {title}")
+    print(f"Hello, {title} {name}")
 greet_with_title(name = "yossi")
 greet_with_title("Gad", "King")
+# part 5
+def describe(name, level, active):
+    print(f"Name: {name}")
+    print(f"Level: {level}")
+    print(f"Active: {active}")
+describe(level=7, name="yossi", active=True) 
