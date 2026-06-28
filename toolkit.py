@@ -44,3 +44,11 @@ def show_fahrenheit(c):
 show_fahrenheit(0)
 show_fahrenheit(100)
 show_fahrenheit(37.5)
+# part 9
+def check_even(n):
+    if n % 2 == 0:
+        print(f"{n} is even")
+    elif n % 2 != 0:
+        print(f"{n} is add")
+check_even(4)
+check_even(7)
