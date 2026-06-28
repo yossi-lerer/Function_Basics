@@ -85,3 +85,4 @@ def show_profile(**kwargs):
     for i in kwargs:
         print(f"{i}: {kwargs[i]}")
 show_profile(name="Agent X", level=7, active=True)
+# step 3
