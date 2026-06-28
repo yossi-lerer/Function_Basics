@@ -44,7 +44,7 @@ def show_fahrenheit(c):
 show_fahrenheit(0)
 show_fahrenheit(100)
 show_fahrenheit(37.5)
-# part 9
+# step 9
 def check_even(n):
     if n % 2 == 0:
         print(f"{n} is even")
@@ -52,3 +52,25 @@ def check_even(n):
         print(f"{n} is add")
 check_even(4)
 check_even(7)
+# step 10
+def summarize(items):
+    round = 0
+    sum = 0
+    Smallest = 0
+    Largest = 0
+    for i in items:
+        sum += i
+        if round == 0:
+            Smallest = i
+        elif i < Smallest:
+            Smallest = i
+
+        if round == 0:
+            Largest = i
+        elif i > Largest:
+            Largest = i
+        round += 1
+    print(f"Sum: {sum}")
+    print(f"Smallest: {Smallest}")
+    print(f"Largest: {Largest}")
+summarize([4, 9, 2, 10, 3])
