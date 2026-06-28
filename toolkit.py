@@ -91,3 +91,7 @@ def power(base, exponent=2):
 power(3)
 power(3, 3)
 power(exponent=4, base=2)
+# step 4
+def repeat(text, times):
+    print(text * times)
+repeat("ha", 3)
