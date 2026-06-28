@@ -78,5 +78,5 @@ summarize([4, 9, 2, 10, 3])
 # step 1
 def show_all(*args):
     for i in args:
-        print(args)
+        print(i)
 show_all("radio", "map", "flashlight")
