@@ -74,3 +74,9 @@ def summarize(items):
     print(f"Smallest: {Smallest}")
     print(f"Largest: {Largest}")
 summarize([4, 9, 2, 10, 3])
+# part 2
+# step 1
+def show_all(*args):
+    for i in args:
+        print(args)
+show_all("radio", "map", "flashlight")
