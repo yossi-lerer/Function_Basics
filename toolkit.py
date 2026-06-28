@@ -28,3 +28,13 @@ def multiply(a, b=2):
     print(f"The result of {a} * {b} is {a * b}")
 multiply(5)
 multiply(5, 7)
+def print_largest(a, b, c):
+    if a >= b and a >= c:
+        print(f"the {a} is largest then {b, c}")
+    elif b >= a and b >= c:
+        print(f"the {b} is largest then {a, c}")
+    elif c >= a and c >= b:
+        print(f"the {c} is largest then {a, b}")
+print_largest(3,8,5)
+print_largest(10,2,7)
+print_largest(4,4,1)
