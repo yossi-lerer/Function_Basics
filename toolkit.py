@@ -23,3 +23,8 @@ def describe(name, level, active):
     print(f"Level: {level}")
     print(f"Active: {active}")
 describe(level=7, name="yossi", active=True) 
+# part 6
+def multiply(a, b=2):
+    print(f"The result of {a} * {b} is {a * b}")
+multiply(5)
+multiply(5, 7)
