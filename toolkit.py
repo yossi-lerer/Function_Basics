@@ -44,3 +44,60 @@ def show_fahrenheit(c):
 show_fahrenheit(0)
 show_fahrenheit(100)
 show_fahrenheit(37.5)
+# step 9
+def check_even(n):
+    if n % 2 == 0:
+        print(f"{n} is even")
+    elif n % 2 != 0:
+        print(f"{n} is add")
+check_even(4)
+check_even(7)
+# step 10
+def summarize(items):
+    round = 0
+    sum = 0
+    Smallest = 0
+    Largest = 0
+    for i in items:
+        sum += i
+        if round == 0:
+            Smallest = i
+        elif i < Smallest:
+            Smallest = i
+
+        if round == 0:
+            Largest = i
+        elif i > Largest:
+            Largest = i
+        round += 1
+    print(f"Sum: {sum}")
+    print(f"Smallest: {Smallest}")
+    print(f"Largest: {Largest}")
+summarize([4, 9, 2, 10, 3])
+# part 2
+# step 1
+def show_all(*args):
+    for i in args:
+        print(i)
+show_all("radio", "map", "flashlight")
+# step 2
+def show_profile(**kwargs):
+    for i in kwargs:
+        print(f"{i}: {kwargs[i]}")
+show_profile(name="Agent X", level=7, active=True)
+# step 3
+def power(base, exponent=2):
+    print(f"base ** exponent = {base ** exponent}")
+power(3)
+power(3, 3)
+power(exponent=4, base=2)
+# step 4
+def repeat(text, times):
+    print(text * times)
+repeat("ha", 3)
+# step 5
+def flatten_and_print(nested):
+    for x in nested:
+        for y in x:
+            print(y)
+flatten_and_print([[1, 2], [3, 4], [5]])
