@@ -27,4 +27,4 @@ describe(level=7, name="yossi", active=True)
 def multiply(a, b=2):
     print(f"The result of {a} * {b} is {a * b}")
 multiply(5)
-multiply(564446546857478945278452157845257854, 354321452145742)
+multiply(5, 7)
