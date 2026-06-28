@@ -7,3 +7,8 @@ greet("Agent X")
 def add(a, b):
     print(f"the result of {a} + {b} is {a + b}")
 add(3, 4)
+# part 3
+def square(n):
+    print(f"the square {n}** {n**2}")
+square(5)
+square(12)
